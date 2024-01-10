@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: cyan;
+}
+.main{
+	background-color: greenyellow;
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 30%;
+	width: 460px;
+}

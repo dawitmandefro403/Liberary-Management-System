@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  background-image: url("pictures/bg/bg1.jpg");
+  height: auto;
+  width: 100%;
+  
+}
+#outer {
+
+}
+#main{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  padding: 70px 0;
+  width: 35%;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#titletop{
+  margin-top: -25px;
+  margin-left: -7px;
+  margin-bottom: 25px;
+  padding-top: 5px;
+  height: 75px;
+	text-align: center;
+  background-color: lightcoral;
+}
+#submain {
+  margin: auto;
+  text-align: center;
+  padding: 5px 0;
+  width: 80%;
+  height: 100px;
+}
+#submain div {
+  display: block;
+  padding: 14px 0;
+  text-align: center;
+}
+a {
+  background-color: yellow;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 3px grey;
+  font-weight: bold;
+  color: black;
+  padding: 4px;
+  border-radius: 4px;
+}
+a:hover {
+  background-color: cyan;
+}
+#foot{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: lightskyblue;
+  margin-bottom: 0;
+  padding: 0;
+}
